@@ -17,4 +17,11 @@
     <string name="grow_description">عند زراعة الغذاء محليا فإنك تساهم في الحفاظ على الأراضي الزراعية و المساحات المفتوحة في مجتمعك. الزراعة المحلية تساعد في تقليل استهلاك الوقود عالميا، بسبب قرب المسافة التي تستغرق لنقل الغذاء، مما يؤدي إلى الحفاظ على البيئة.</string>
     <string name="shop_description">شراء منتجات محلية يسهم في تقوية الإقتصاد المحلي للمجتمع، يقلل من استخدام الوقود عالميا بسبب قصر مسافة نقل المنتجات، و يزيد من اصرار صاحب المشروع على الإنتاج محليا. عند التعامل مع شركة ناشئة محلية فإن صاحب المشروع يكون أقرب إلى الزبائن مما يؤدي إلى خدمة أفضل لك.</string>
     <string name="TypeImage">TypeImage</string>
+    <string-array name="types">
+        <item>@string/make</item>
+        <item>@string/eat</item>
+        <item>@string/cook</item>
+        <item>@string/shop</item>
+        <item>@string/grow</item>
+    </string-array>
 </resources>

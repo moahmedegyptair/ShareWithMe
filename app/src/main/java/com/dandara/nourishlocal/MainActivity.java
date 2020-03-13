@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,13 +19,23 @@ public class MainActivity extends AppCompatActivity {
     private Button btnEat;
     private Button btnShop;
     private Button btnGrow;
-    public static final String TAG = MainActivity.class.getName();
+    //public static final String TAG = MainActivity.class.getName();
 
+    private ListView typeListView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txtInputUser = findViewById(R.id.txtInputUser);
+        typeListView = findViewById(R.id.typesListView);
+        typeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //Log.i(TAG, position + "");
+                getIntent(getResources().getStringArray(R.array.types)[position]);
+            }
+        });
+        /*
         btnMake = findViewById(R.id.btnMake);
         btnCook = findViewById(R.id.btnCook);
         btnEat = findViewById(R.id.btnEat);
@@ -61,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 getIntent(btnGrow.getText().toString());
             }
         });
-
+        */
     }
 
     private void getIntent(String type) {
