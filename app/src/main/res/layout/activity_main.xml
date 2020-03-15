@@ -23,13 +23,14 @@
         android:textColor="@android:color/holo_blue_dark"
         android:autofillHints="@string/txtHint" />
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/txtInputUser"
         android:layout_centerHorizontal="true"
         android:entries="@array/types"
-        android:id="@+id/typesListView" />
+        android:id="@+id/typesListView"
+        android:scrollbars="none"/>
 
 
 </RelativeLayout>

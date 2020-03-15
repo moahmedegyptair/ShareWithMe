@@ -7,7 +7,7 @@
     <string name="grow">ازرع</string>
     <string name="shop">تسوق</string>
     <string name="user_name_key">User Name</string>
-    <string name="type_key">type key</string>
+    <string name="community_key">community key</string>
     <string name="txtDetails">text Details</string>
     <string name="share">شارك</string>
     <string name="make_description">صناعة منتجك محليا يسهم في زيادة الفرص الوظيفية في ورش العمل و المصانع المحلية. عند إنفاقك المال لورشة أو مصنع محلي فإن ذلك يؤدي إلى تقوية الإقتصاد المحلي للمجتمع ويزيد من تطور قطاعات محلية أخرى. فوائد الصناعة المحلية أنه يمكنك طلب كميات أقل بأسرع وقت ممكن و اكتشاف أخطاء المنتج بأسرع وقت و إصلاحها فورا بسبب عدم وجود مرحلة النقل و جمارك الحدود. عند العمل مع حرفي أو مصنع محلي فإن التواصل يكون أسهل مما يؤدي إلى زيادة كفائة العمل و الإنتاج.</string>
@@ -17,6 +17,8 @@
     <string name="grow_description">عند زراعة الغذاء محليا فإنك تساهم في الحفاظ على الأراضي الزراعية و المساحات المفتوحة في مجتمعك. الزراعة المحلية تساعد في تقليل استهلاك الوقود عالميا، بسبب قرب المسافة التي تستغرق لنقل الغذاء، مما يؤدي إلى الحفاظ على البيئة.</string>
     <string name="shop_description">شراء منتجات محلية يسهم في تقوية الإقتصاد المحلي للمجتمع، يقلل من استخدام الوقود عالميا بسبب قصر مسافة نقل المنتجات، و يزيد من اصرار صاحب المشروع على الإنتاج محليا. عند التعامل مع شركة ناشئة محلية فإن صاحب المشروع يكون أقرب إلى الزبائن مما يؤدي إلى خدمة أفضل لك.</string>
     <string name="TypeImage">TypeImage</string>
+    <string name="txtImageView">Image View Description</string>
+    <string name="txtView">Title Text View</string>
     <string-array name="types">
         <item>@string/make</item>
         <item>@string/eat</item>
